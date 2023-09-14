@@ -1,0 +1,36 @@
+[project]
+name = "secretgen"
+version = "1.0.0"
+description = "Generate a secret key"
+license = {file = "LICENSE"}
+readme = "README.md"
+authors = [
+    {name = "Ben Brady", email = "benbradybusiness@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Typing :: Typed",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Source = "https://github.com/Ben-Brady/result"
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+strict = true
+files = ["mediaify"]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.8.0,<4"]
