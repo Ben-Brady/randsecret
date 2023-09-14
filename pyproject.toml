@@ -1,5 +1,5 @@
 [project]
-name = "secretgen"
+name = "randsecret"
 version = "1.0.0"
 description = "Generate a secret key"
 license = {file = "LICENSE"}
